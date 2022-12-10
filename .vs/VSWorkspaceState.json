@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\cypress",
+    "\\cypress\\Intergration",
+    "\\cypress\\Intergration\\examples",
+    "\\cypress\\Intergration\\GreenKart",
+    "\\cypress\\Intergration\\pageObjects"
+  ],
+  "SelectedNode": "\\cypress.config.js",
+  "PreviewInSolutionExplorer": false
+}
