@@ -5,7 +5,7 @@ pipeline {
       image 'cypress/base:latest'
     }
   }
- 
+
   stages {
     stage('build and test') {
       environment {
