@@ -2,15 +2,7 @@ pipeline {
   agent none
 
   stages {
-    stage("Fix the permission issue") {
-
-            agent any
-
-            steps {
-                sh "chown root:jenkins /run/docker.sock"
-            }
-
-        }
+    
     stage('build and test') {
 	agent {
     docker {
