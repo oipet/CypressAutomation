@@ -12,7 +12,7 @@ describe('My 8th Framework Test Suite', function () {
     before(function () {
         //runs once before all tests in the block
         cy.fixture('example2').then(function (data)
-        {
+        { 
             this.data = data
 
         })
