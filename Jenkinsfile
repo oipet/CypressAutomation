@@ -6,7 +6,7 @@ pipeline {
     stage('build and test') {
 	agent {
     docker {
-      image 'cypress/base:latest'
+      image 'cypress/base:12'
     }
             }
       environment {
