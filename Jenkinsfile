@@ -17,6 +17,7 @@ pipeline {
       }
 
       steps {
+        echo "ttttttttttttttttttttttttttttttttttttttttttrrrrrrrrrrrrrrrrrr"
         sh '-c sleep 60'
         sh  'npm ci'
         sh  "npm run test:ci:record"
