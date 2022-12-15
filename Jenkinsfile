@@ -17,7 +17,7 @@ pipeline {
       }
 
       steps {
-        sh 'sleep 20'
+        sh 'sleep 60'
         sh 'npm ci'
         sh "npm run test:ci:record"
       }
